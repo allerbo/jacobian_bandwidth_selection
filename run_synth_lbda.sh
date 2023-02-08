@@ -1,4 +1,4 @@
-for log_lbda in {-40..30}
+for log_lbda in {-40..20..5}
 do
-  sbatch start_synth_lbda.sh $log_lbda
+  sbatch start_synth.sh lbda $log_lbda $*
 done

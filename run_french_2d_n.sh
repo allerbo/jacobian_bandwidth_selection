@@ -1,4 +1,4 @@
-for n in {35..10}
+for n in {35..10..-5}
 do
-  sbatch start_french_2d_n.sh $n
+  sbatch start_french_2d.sh n $n $*
 done

@@ -1,4 +1,4 @@
-for n in {80..10}
+for n in {100..10..-5}
 do
-  sbatch start_synth_n.sh $n
+  sbatch start_synth.sh n $n $*
 done

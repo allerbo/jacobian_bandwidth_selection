@@ -2,7 +2,7 @@ import numpy as np
 import sys
 from matplotlib import pyplot as plt
 sys.path.insert(1,'.')
-from help_fcts import j2a, kern, kern_1d
+from help_fcts import j2a
 
 FS_TITLE=14
 FS_LAB=13
@@ -38,7 +38,7 @@ for ax,lbda,sigma_bds in zip(axs,LBDAS,SIGMA_BDS):
   ax.set_title('$\\lambda=$'+str(lbda), fontsize=FS_TITLE)
   ax.set_xlabel('$\\sigma$',fontsize=FS_LAB)
 
-fig.legend(ls, ['$J_2^a$','$0.01\\cdot j_a(\\sigma)$','$j_b(\\sigma)$'], loc='lower center', ncol=3, fontsize=FS_LAB)
+fig.legend(ls, ['$J_2^a(\\sigma)$','$0.01\\cdot j_a(\\sigma)$','$j_b(\\sigma)$'], loc='lower center', ncol=3, fontsize=FS_LAB)
 plt.tight_layout()
 fig.subplots_adjust(bottom=.26)
 plt.savefig('figures/appr_jac_demo.pdf')

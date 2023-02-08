@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH -A xxxxxxxx
+#SBATCH -A ????
 #SBATCH -t 05:00:00
 #SBATCH -o out_french_2d_jk.txt
 #SBATCH -e err_french_2d_jk.txt

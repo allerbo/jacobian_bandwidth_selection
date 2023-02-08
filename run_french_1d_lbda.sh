@@ -1,4 +1,4 @@
-for log_lbda in {-40..30}
+for log_lbda in {-40..20..5}
 do
-  sbatch start_french_1d_lbda.sh $log_lbda
+  sbatch start_french_1d.sh lbda $log_lbda
 done
