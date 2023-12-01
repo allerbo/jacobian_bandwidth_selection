@@ -3,7 +3,7 @@
 #SBATCH -t 01:00:00
 #SBATCH -o out_synth_n.txt
 #SBATCH -e err_synth_n.txt
-#SBATCH -n 32
+#SBATCH -n 1
 
 
 ml SciPy-bundle/2022.05-foss-2022a

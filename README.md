@@ -16,6 +16,12 @@ python bandwidth_demo.py
 python appr_jac_demo.py
 ```
 
+## Table 2
+```
+bash run_real.sh         #Calls start_real.sh, which calls real.py.
+python real_tab.py       #Creates table.
+```
+
 ## Figure 3:
 ```
 python bw_sim_demo.py
@@ -26,13 +32,12 @@ python bw_sim_demo.py
 python french_2d_jk.py    
 ```
 
-## Figure 5 and Figure 8
+## Figure 5
 ```
 python french_1d_jk.py
 ```
 
-
-## Figures 6
+## Figure 6
 ```
 bash run_n.sh            #Calls start_synth_n.sh, start_french_1d_n.sh 
                          #and start_french_2d_n.sh multiple times for 
@@ -41,7 +46,7 @@ bash run_n.sh            #Calls start_synth_n.sh, start_french_1d_n.sh
 python plot_sweep_n.py   #Plot output from above.
 ```
 
-## Figures 7
+## Figure 7
 ```
 bash run_lbda.sh           #Calls start_run_synth_lbda.sh, start_french_1d_lbda.sh 
                            #and start_french_2d_lbda.sh multiple times for 
@@ -50,9 +55,4 @@ bash run_lbda.sh           #Calls start_run_synth_lbda.sh, start_french_1d_lbda.
 python plot_sweep_lbda.py  #Plot output from above.
 ```
 
-## Table 1
-```
-python bs.py         #Run experiments
-python bs_tab.py     #Create table
-```
 
